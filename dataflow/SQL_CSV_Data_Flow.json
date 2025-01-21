@@ -1,0 +1,43 @@
+{
+	"name": "SQL_CSV_Data_Flow",
+	"properties": {
+		"type": "MappingDataFlow",
+		"typeProperties": {
+			"sources": [
+				{
+					"dataset": {
+						"referenceName": "lab_demo_files",
+						"type": "DatasetReference"
+					},
+					"name": "myFilesTestCSV",
+					"description": "Import data from lab_demo_files (computer files)"
+				}
+			],
+			"sinks": [
+				{
+					"dataset": {
+						"referenceName": "SqlDemoTable",
+						"type": "DatasetReference"
+					},
+					"name": "sqlDemoSink"
+				}
+			],
+			"transformations": [],
+			"scriptLines": [
+				"source(allowSchemaDrift: true,",
+				"     validateSchema: false,",
+				"     ignoreNoFilesFound: false) ~> myFilesTestCSV",
+				"myFilesTestCSV sink(allowSchemaDrift: true,",
+				"     validateSchema: false,",
+				"     deletable:false,",
+				"     insertable:true,",
+				"     updateable:false,",
+				"     upsertable:false,",
+				"     format: 'table',",
+				"     skipDuplicateMapInputs: true,",
+				"     skipDuplicateMapOutputs: true,",
+				"     errorHandlingOption: 'stopOnFirstError') ~> sqlDemoSink"
+			]
+		}
+	}
+}

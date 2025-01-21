@@ -1,0 +1,12 @@
+{
+	"name": "SqlDemoTable",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SQL_linked_service",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": []
+	}
+}
