@@ -1,5 +1,5 @@
 {
-	"name": "lab_demo_files",
+	"name": "lab_demo_myFiles",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "EthanPCFileServer1",
