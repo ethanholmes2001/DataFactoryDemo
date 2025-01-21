@@ -1,0 +1,9 @@
+{
+	"name": "Ethan-Factory",
+	"location": "canadacentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "5b109327-6216-490b-a2da-6b562bd9b875",
+		"tenantId": "04e8677e-c989-47b9-8619-d83d5a5f6c67"
+	}
+}

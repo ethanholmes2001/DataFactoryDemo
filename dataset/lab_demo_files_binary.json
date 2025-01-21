@@ -1,0 +1,17 @@
+{
+	"name": "lab_demo_files_binary",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "EthanPCFileServer1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "FileServerLocation"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

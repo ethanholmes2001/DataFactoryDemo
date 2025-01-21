@@ -1,0 +1,17 @@
+{
+	"name": "EthanPCFileServer1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "FileServer",
+		"typeProperties": {
+			"host": "C:\\Users\\Ethan Holmes\\Documents\\DataFactorySource",
+			"userId": "ethan holmes",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJlNDZjOGVkNS1iMGQ3LTQ3NjUtOGU3OC1hZTJmN2EwZjYzMGUiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "integrationRuntimeHomeTest",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
