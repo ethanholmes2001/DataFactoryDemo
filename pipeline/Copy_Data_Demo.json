@@ -45,7 +45,7 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "lab_demo_files_binary",
+						"referenceName": "lab_demo_myFiles_binary",
 						"type": "DatasetReference"
 					}
 				],

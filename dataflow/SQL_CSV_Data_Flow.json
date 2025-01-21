@@ -6,7 +6,7 @@
 			"sources": [
 				{
 					"dataset": {
-						"referenceName": "lab_demo_files",
+						"referenceName": "lab_demo_storage",
 						"type": "DatasetReference"
 					},
 					"name": "myFilesTestCSV",
