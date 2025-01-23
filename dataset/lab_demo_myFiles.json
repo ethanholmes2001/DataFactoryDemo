@@ -10,7 +10,8 @@
 		"typeProperties": {
 			"location": {
 				"type": "FileServerLocation",
-				"fileName": "AtHomeTest.csv"
+				"fileName": "StainCountRawProDemo.csv",
+				"folderPath": "ProcessedDemo"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
