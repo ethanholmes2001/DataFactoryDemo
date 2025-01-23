@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"fileName": "StainCountRAW.csv",
+				"fileName": "StainCountRawProDemo",
 				"container": "lab-demo-files"
 			},
 			"columnDelimiter": ",",
