@@ -7,7 +7,290 @@
 		},
 		"annotations": [],
 		"type": "AzureSqlTable",
-		"schema": [],
+		"schema": [
+			{
+				"name": "specnum_formatted",
+				"type": "varchar"
+			},
+			{
+				"name": "specimen_id",
+				"type": "varchar"
+			},
+			{
+				"name": "spec_numwheel",
+				"type": "varchar"
+			},
+			{
+				"name": "spec_numyear",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "spec_numnum",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "gross_path_i1",
+				"type": "varchar"
+			},
+			{
+				"name": "gross_path_ia",
+				"type": "varchar"
+			},
+			{
+				"name": "frozen_path_i1",
+				"type": "varchar"
+			},
+			{
+				"name": "frozen_path_ia",
+				"type": "varchar"
+			},
+			{
+				"name": "case_path_i1",
+				"type": "varchar"
+			},
+			{
+				"name": "case_path_ia",
+				"type": "varchar"
+			},
+			{
+				"name": "histo_event_when",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			},
+			{
+				"name": "histo_event_name",
+				"type": "varchar"
+			},
+			{
+				"name": "histo_event_ini",
+				"type": "varchar"
+			},
+			{
+				"name": "priority_name",
+				"type": "varchar"
+			},
+			{
+				"name": "priority_abbr",
+				"type": "varchar"
+			},
+			{
+				"name": "part_designator",
+				"type": "varchar"
+			},
+			{
+				"name": "part_description",
+				"type": "text"
+			},
+			{
+				"name": "parttype_id",
+				"type": "varchar"
+			},
+			{
+				"name": "part_inst",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "part_sequence",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "part_dt_taken",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			},
+			{
+				"name": "part_dt_received",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			},
+			{
+				"name": "part_label_design",
+				"type": "varchar"
+			},
+			{
+				"name": "part_all_used",
+				"type": "varchar"
+			},
+			{
+				"name": "part_addl_labels",
+				"type": "varchar"
+			},
+			{
+				"name": "block_label",
+				"type": "varchar"
+			},
+			{
+				"name": "block_order_date",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			},
+			{
+				"name": "block_status_date",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			},
+			{
+				"name": "block_pieces",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "block_log_id",
+				"type": "varchar"
+			},
+			{
+				"name": "block_log_name",
+				"type": "varchar"
+			},
+			{
+				"name": "block_log_abbr",
+				"type": "varchar"
+			},
+			{
+				"name": "block_req_cls_name",
+				"type": "varchar"
+			},
+			{
+				"name": "block_req_cls_abbr",
+				"type": "varchar"
+			},
+			{
+				"name": "block_dept_name",
+				"type": "varchar"
+			},
+			{
+				"name": "block_dept_abbr",
+				"type": "varchar"
+			},
+			{
+				"name": "block_comment",
+				"type": "text"
+			},
+			{
+				"name": "block_sequence",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "block_inst",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "stain_order_date",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			},
+			{
+				"name": "stain_status_date",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			},
+			{
+				"name": "stain_sequence",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "stain_slidecount",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "stain_comment",
+				"type": "text"
+			},
+			{
+				"name": "stain_id",
+				"type": "varchar"
+			},
+			{
+				"name": "stain_label",
+				"type": "varchar"
+			},
+			{
+				"name": "stain_ord_by",
+				"type": "varchar"
+			},
+			{
+				"name": "stain_process_name",
+				"type": "varchar"
+			},
+			{
+				"name": "stain_process_abbr",
+				"type": "varchar"
+			},
+			{
+				"name": "stain_req_cls_name",
+				"type": "varchar"
+			},
+			{
+				"name": "stain_req_cls_abbr",
+				"type": "varchar"
+			},
+			{
+				"name": "stain_dept_name",
+				"type": "varchar"
+			},
+			{
+				"name": "stain_dept_abbr",
+				"type": "varchar"
+			},
+			{
+				"name": "stain_log_name",
+				"type": "varchar"
+			},
+			{
+				"name": "stain_log_abbr",
+				"type": "varchar"
+			},
+			{
+				"name": "stain_inst",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "custom1",
+				"type": "varchar"
+			},
+			{
+				"name": "block_status_name",
+				"type": "varchar"
+			},
+			{
+				"name": "block_status_abbr",
+				"type": "varchar"
+			},
+			{
+				"name": "stain_status_name",
+				"type": "varchar"
+			},
+			{
+				"name": "stain_status_abbr",
+				"type": "varchar"
+			},
+			{
+				"name": "part_type_name",
+				"type": "varchar"
+			},
+			{
+				"name": "accession_date",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			}
+		],
 		"typeProperties": {
 			"schema": "dbo",
 			"table": "StainCountRAW"
