@@ -10,6 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "FileServerLocation",
+				"fileName": "*.csv",
 				"folderPath": "ProcessedDemo"
 			},
 			"columnDelimiter": ",",
