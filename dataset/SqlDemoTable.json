@@ -5,6 +5,11 @@
 			"referenceName": "SQL_linked_service",
 			"type": "LinkedServiceReference"
 		},
+		"parameters": {
+			"TableName": {
+				"type": "string"
+			}
+		},
 		"annotations": [],
 		"type": "AzureSqlTable",
 		"schema": [
@@ -292,8 +297,10 @@
 			}
 		],
 		"typeProperties": {
-			"schema": "dbo",
-			"table": "StainCountRAW"
+			"table": {
+				"value": "@dataset().TableName",
+				"type": "Expression"
+			}
 		}
 	}
 }
