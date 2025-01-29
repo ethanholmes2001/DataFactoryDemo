@@ -1,5 +1,5 @@
 {
-	"name": "SQL_CSV_Test",
+	"name": "SQL_CSV_Test_json",
 	"properties": {
 		"activities": [
 			{
@@ -116,7 +116,7 @@
 									"type": "DatasetReference",
 									"parameters": {
 										"TableName": {
-											"value": "@item().name",
+											"value": "@split(item().name, '.')[0]",
 											"type": "Expression"
 										}
 									}
