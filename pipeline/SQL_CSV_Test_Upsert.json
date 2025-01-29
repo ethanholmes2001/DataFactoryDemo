@@ -1,5 +1,5 @@
 {
-	"name": "SQL_CSV_Test_json",
+	"name": "SQL_CSV_Test_Upsert",
 	"properties": {
 		"activities": [
 			{
@@ -87,7 +87,7 @@
 									"upsertSettings": {
 										"useTempDB": true,
 										"keys": [
-											""
+											"hash"
 										]
 									},
 									"sqlWriterUseTableLock": false,
